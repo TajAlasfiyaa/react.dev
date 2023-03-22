@@ -131,37 +131,36 @@ export function HomeContent() {
             React
           </h1>
           <p className="text-4xl font-display max-w-lg md:max-w-full py-1 text-center text-secondary dark:text-primary-dark leading-snug self-center">
-            The library for web and native user interfaces
+            مكتبة JavaScript لبناء الواجهات للويب والتطبيقات الجوالة
           </p>
           <div className="mt-5 self-center flex gap-2 w-full sm:w-auto flex-col sm:flex-row">
-            <ButtonLink
-              href={'/learn'}
-              type="primary"
-              size="lg"
-              className="w-full sm:w-auto justify-center"
-              label="Learn React">
-              Learn React
-            </ButtonLink>
             <ButtonLink
               href={'/reference/react'}
               type="secondary"
               size="lg"
               className="w-full sm:w-auto justify-center"
               label="API Reference">
-              API Reference
+              مرجع API
+            </ButtonLink>
+            <ButtonLink
+              href={'/learn'}
+              type="primary"
+              size="lg"
+              className="w-full sm:w-auto justify-center"
+              label="Learn React">
+              تعلم الـ(React)
             </ButtonLink>
           </div>
         </div>
 
         <Section background="left-card">
           <Center>
-            <Header>Create user interfaces from components</Header>
+            <Header>انشئ واجهات المستخدم بإستخدام المكونات (Components)</Header>
             <Para>
-              React lets you build user interfaces out of individual pieces
-              called components. Create your own React components like{' '}
-              <Code>Thumbnail</Code>, <Code>LikeButton</Code>, and{' '}
-              <Code>Video</Code>. Then combine them into entire screens, pages,
-              and apps.
+              تتيح لك React بناء واجهات المستخدم من قطع فردية تسمى المكونات
+              (Components) . انشئ مكونات React الخاصة بك مثل{' '}
+              <Code>Thumbnail</Code>, <Code>LikeButton</Code>, و{' '}
+              <Code>Video</Code>. ثم يتم دمجهات في شاشات كاملة
             </Para>
           </Center>
           <FullBleed>
@@ -169,22 +168,20 @@ export function HomeContent() {
           </FullBleed>
           <Center>
             <Para>
-              Whether you work on your own or with thousands of other
-              developers, using React feels the same. It is designed to let you
-              seamlessly combine components written by independent people,
-              teams, and organizations.
+              سواء كنت تعمل بمفردك أو مع آلاف المطورين الآخرين، بإستخدام React
+              تحصل على نفس التجربة فهو مُصمم ليتيح لك دمج المكونات المكتوبة
+              بواسطة أشخاص، وفرق، ومؤسسات مختلفة بسلاسة.
             </Para>
           </Center>
         </Section>
 
         <Section background="right-card">
           <Center>
-            <Header>Write components with code and markup</Header>
+            <Header>أكتب المكونات بإستخدام الكود والـ(markup) </Header>
             <Para>
-              React components are JavaScript functions. Want to show some
-              content conditionally? Use an <Code>if</Code> statement.
-              Displaying a list? Try array <Code>map()</Code>. Learning React is
-              learning programming.
+              React عبارة عن JavaScript functions. تريد اظهار بعض المحتوى بشكل
+              شرطي؟ استخدم <Code>if</Code> statement. عرض قائمة؟ جرب array{' '}
+              <Code>map()</Code>. تعلم الReact هو تعلم البرمجة.
             </Para>
           </Center>
           <FullBleed>
@@ -192,10 +189,9 @@ export function HomeContent() {
           </FullBleed>
           <Center>
             <Para>
-              This markup syntax is called JSX. It is a JavaScript syntax
-              extension popularized by React. Putting JSX markup close to
-              related rendering logic makes React components easy to create,
-              maintain, and delete.
+              يسمى هذا الsyntax بالJSX . هو عبارة عن امتداد للجافاسكريب اشتهر
+              بسبب الReact الـJSX مقرب من العرض المنطقي (rendering logic) مما
+              يجعل مكونات React اسهل في الانشاء والصيانة والحذف
             </Para>
           </Center>
         </Section>
@@ -423,10 +419,10 @@ export function HomeContent() {
                 </Para>
                 <div className="order-last pt-5">
                   <Para>
-                    The React team is always researching how to improve React.
-                    Some research takes years to pay off. React has a high bar
-                    for taking a research idea into production. Only proven
-                    approaches become a part of React.
+                    فريق React يبحث دائمًا عن كيفية تحسين React. يستغرق بعض
+                    الأبحاث سنوات حتى تظهر النتائج. يتم تحديد معايير عالية
+                    لاعتماد فكرة البحث في إنتاج React. فقط النهج المثبتة تصبح
+                    جزءًا من React.
                   </Para>
                   <div className="hidden lg:flex justify-start w-full">
                     <CTA color="gray" icon="news" href="/blog">
@@ -833,7 +829,7 @@ function ExampleLayout({
     }
   }, [activeArea]);
   return (
-    <div className="lg:pl-10 lg:pr-5 w-full">
+    <div className="lg:pl-10 lg:pr-5 w-full " dir="ltr">
       <div className="mt-12 mb-2 lg:my-16 max-w-7xl mx-auto flex flex-col w-full lg:rounded-2xl lg:bg-card lg:dark:bg-card-dark">
         <div className="flex-col gap-0 lg:gap-5 lg:rounded-2xl lg:bg-gray-10 lg:dark:bg-gray-70 shadow-inner-border dark:shadow-inner-border-dark lg:flex-row flex grow w-full mx-auto items-center bg-cover bg-center lg:bg-right lg:bg-[length:60%_100%] bg-no-repeat bg-meta-gradient dark:bg-meta-gradient-dark">
           <div className="lg:-m-5 h-full shadow-nav dark:shadow-nav-dark lg:rounded-2xl bg-wash dark:bg-gray-95 w-full flex grow flex-col">

@@ -3,12 +3,12 @@
  */
 
 import {
-  useState,
-  useRef,
-  useCallback,
-  useEffect,
   startTransition,
   Suspense,
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
 } from 'react';
 import * as React from 'react';
 import cn from 'classnames';
@@ -231,7 +231,8 @@ export default function TopNav({
           className={cn(
             'duration-300 backdrop-filter backdrop-blur-lg backdrop-saturate-200 transition-shadow bg-opacity-90 items-center w-full flex justify-between bg-wash dark:bg-wash-dark dark:bg-opacity-95 px-1.5 lg:pr-5 lg:pl-4 z-50',
             {'dark:shadow-nav-dark shadow-nav': isScrolled || isOpen}
-          )}>
+          )}
+          dir="rtl">
           <div className="h-16 w-full gap-0 sm:gap-3 flex items-center justify-between">
             <div className="3xl:flex-1 flex flex-row ">
               <button
@@ -279,20 +280,20 @@ export default function TopNav({
               </button>
             </div>
             <div className="text-base justify-center items-center gap-1.5 flex 3xl:flex-1 flex-row 3xl:justify-end">
-              <div className="mx-2.5 gap-1.5 hidden lg:flex">
+              <div className="mx-2.5 gap-1.5 hidden lg:flex text-right">
                 <NavItem isActive={section === 'learn'} url="/learn">
-                  Learn
+                  تعلم
                 </NavItem>
                 <NavItem
                   isActive={section === 'reference'}
                   url="/reference/react">
-                  Reference
+                  المرجع
                 </NavItem>
                 <NavItem isActive={section === 'community'} url="/community">
-                  Community
+                  المجتمع
                 </NavItem>
                 <NavItem isActive={section === 'blog'} url="/blog">
-                  Blog
+                  المدونة
                 </NavItem>
               </div>
               <div className="flex w-full md:hidden"></div>

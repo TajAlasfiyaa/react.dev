@@ -13,9 +13,9 @@ import {IconGitHub} from 'components/Icon/IconGitHub';
 export function Footer() {
   const socialLinkClasses = 'hover:text-primary dark:text-primary-dark';
   return (
-    <footer className={cn('text-secondary dark:text-secondary-dark')}>
+    <footer className={cn('text-secondary dark:text-secondary-dark')} dir="rtl">
       <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-x-12 gap-y-8 max-w-7xl mx-auto">
-        <div className="col-span-2 md:col-span-1 justify-items-start mt-3.5 text-left">
+        <div className="col-span-2 md:col-span-1 justify-items-start mt-3.5 text-right">
           <ExternalLink
             href="https://opensource.fb.com/"
             aria-label="Meta Open Source">
@@ -280,56 +280,54 @@ export function Footer() {
             </div>
           </ExternalLink>
 
-          <div className="text-xs text-left mt-2 pr-0.5">
+          <div className="text-xs text-right mt-2 pr-0.5">
             &copy;{new Date().getFullYear()}
           </div>
         </div>
         <div className="flex flex-col">
           <FooterLink href="/learn" isHeader={true}>
-            Learn React
+            تعلم React
           </FooterLink>
-          <FooterLink href="/learn/">Quick Start</FooterLink>
-          <FooterLink href="/learn/installation">Installation</FooterLink>
-          <FooterLink href="/learn/describing-the-ui">
-            Describing the UI
-          </FooterLink>
+          <FooterLink href="/learn/">بداية سريعة</FooterLink>
+          <FooterLink href="/learn/installation">التصنيب</FooterLink>
+          <FooterLink href="/learn/describing-the-ui">وصف ال(UI)</FooterLink>
           <FooterLink href="/learn/adding-interactivity">
-            Adding Interactivity
+            اضافة التفاعلية
           </FooterLink>
-          <FooterLink href="/learn/managing-state">Managing State</FooterLink>
-          <FooterLink href="/learn/escape-hatches">Escape Hatches</FooterLink>
+          <FooterLink href="/learn/managing-state">
+            ادارة الحالة (State)
+          </FooterLink>
+          <FooterLink href="/learn/escape-hatches">فتحات الهروب</FooterLink>
         </div>
         <div className="flex flex-col">
           <FooterLink href="/reference/react" isHeader={true}>
-            API Reference
+            مرجع (APIs)
           </FooterLink>
           <FooterLink href="/reference/react">React APIs</FooterLink>
           <FooterLink href="/reference/react-dom">React DOM APIs</FooterLink>
         </div>
         <div className="md:col-start-2 xl:col-start-4 flex flex-col">
           <FooterLink href="/community" isHeader={true}>
-            Community
+            المجتمع
           </FooterLink>
           <FooterLink href="https://github.com/facebook/react/blob/main/CODE_OF_CONDUCT.md">
-            Code of Conduct
+            القواعد السلوكية
           </FooterLink>
           <FooterLink href="/community/team">Meet the Team</FooterLink>
           <FooterLink href="/community/docs-contributors">
-            Docs Contributors
+            مصادر المجتمع
           </FooterLink>
-          <FooterLink href="/community/acknowledgements">
-            Acknowledgements
-          </FooterLink>
+          <FooterLink href="/community/acknowledgements">شكر وتقدير</FooterLink>
         </div>
         <div className="flex flex-col">
-          <FooterLink isHeader={true}>More</FooterLink>
-          <FooterLink href="/blog">Blog</FooterLink>
+          <FooterLink isHeader={true}>المزيد</FooterLink>
+          <FooterLink href="/blog">المدونة</FooterLink>
           <FooterLink href="https://reactnative.dev/">React Native</FooterLink>
           <FooterLink href="https://opensource.facebook.com/legal/privacy">
-            Privacy
+            الخصوصية
           </FooterLink>
           <FooterLink href="https://opensource.fb.com/legal/terms/">
-            Terms
+            الشروط
           </FooterLink>
           <div className="flex flex-row mt-8 gap-x-2">
             <ExternalLink

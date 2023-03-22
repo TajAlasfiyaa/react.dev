@@ -1,15 +1,14 @@
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
- *
  */
 
-import {useRef, useEffect} from 'react';
+import {useEffect, useRef} from 'react';
 import cn from 'classnames';
 import {ExternalLink} from './ExternalLink';
 
 const bannerText = 'Support Ukraine 🇺🇦';
 const bannerLink = 'https://opensource.fb.com/support-ukraine';
-const bannerLinkText = 'Help Provide Humanitarian Aid to Ukraine';
+const bannerLinkText = 'المساعدة في تقديم المساعدات الإنسانية لأوكرانيا';
 
 export default function SocialBanner() {
   const ref = useRef<HTMLDivElement | null>(null);
@@ -39,7 +38,7 @@ export default function SocialBanner() {
       <ExternalLink
         className="ml-0 sm:ml-1 text-link dark:text-link-dark hover:underline"
         href={bannerLink}>
-        <div className="inline sm:hidden">🇺🇦 </div>
+        <div className="inline sm:hidden">🇺🇦</div>
         {bannerLinkText}
         <span className="hidden sm:inline">.</span>
       </ExternalLink>
