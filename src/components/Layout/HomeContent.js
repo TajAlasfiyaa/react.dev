@@ -419,14 +419,14 @@ export function HomeContent() {
                 </Para>
                 <div className="order-last pt-5">
                   <Para>
-                    فريق React يبحث دائمًا عن كيفية تحسين React. يستغرق بعض
+                    فريق (React) يبحث دائمًا عن كيفية تحسين (React). يستغرق بعض
                     الأبحاث سنوات حتى تظهر النتائج. يتم تحديد معايير عالية
-                    لاعتماد فكرة البحث في إنتاج React. فقط النهج المثبتة تصبح
-                    جزءًا من React.
+                    لاعتماد فكرة البحث في إنتاج (React). فقط النهج المثبتة تصبح
+                    جزءًا من (React).
                   </Para>
                   <div className="hidden lg:flex justify-start w-full">
                     <CTA color="gray" icon="news" href="/blog">
-                      Read more React news
+                      اقراء المزيد عن اخبار الـReact
                     </CTA>
                   </div>
                 </div>
@@ -465,13 +465,12 @@ export function HomeContent() {
             <div className="mx-auto flex flex-col max-w-4xl">
               <Center>
                 <Header>
-                  Join a community <br className="hidden lg:inline" />
-                  of millions
+                  انضم الى مجتمع <br className="hidden lg:inline" />
+                  من الملايين
                 </Header>
                 <Para>
-                  You’re not alone. Two million developers from all over the
-                  world visit the React docs every month. React is something
-                  that people and teams can agree on.
+                  انت لست وحيدأ . مليونا مطور من جميع انحاء العالم يزورون مرجع
+                  الـReact كل شهر . ان (React) متفق علية من الفرق والافراد .
                 </Para>
               </Center>
             </div>
@@ -479,13 +478,12 @@ export function HomeContent() {
             <div className="mx-auto flex flex-col max-w-4xl">
               <Center>
                 <Para>
-                  This is why React is more than a library, an architecture, or
-                  even an ecosystem. React is a community. It’s a place where
-                  you can ask for help, find opportunities, and meet new
-                  friends. You will meet both developers and designers,
-                  beginners and experts, researchers and artists, teachers and
-                  students. Our backgrounds may be very different, but React
-                  lets us all create user interfaces together.
+                  لهذا السبب، (React) أكثر من مجرد مكتبة، أو بنية ، أو حتى بيئة
+                  برمجية. (React) هي مجتمع. إنها مكان يمكنك فيه طلب المساعدة ،
+                  والعثور على فرص، ولقاء أصدقاء جدد. ستلتقي بالمطورين والمصممين،
+                  والمبتدئين والخبراء ، والباحثين والفنانين، والمعلمين والطلاب.
+                  قد تكون خلفياتنا مختلفة تمامًا، ولكن (React) تُمكننا جميعًا من
+                  خلق واجهات المستخدم معًا.
                 </Para>
               </Center>
             </div>
@@ -494,15 +492,15 @@ export function HomeContent() {
           <div className="mt-20 px-5 lg:px-0 mb-6 max-w-4xl text-center text-opacity-80">
             <Logo className="text-link dark:text-link-dark w-24 lg:w-28 mb-10 lg:mb-8 mt-12 h-auto mx-auto self-start" />
             <Header>
-              Welcome to the <br className="" />
-              React community
+              مرحبا بك في <br className="" />
+              مجتمع React
             </Header>
             <ButtonLink
               href={'/learn'}
               type="primary"
               size="lg"
               label="Take the Tutorial">
-              Get Started
+              ابدأ الان
             </ButtonLink>
           </div>
         </Section>
