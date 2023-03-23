@@ -198,12 +198,16 @@ export function HomeContent() {
 
         <Section background="left-card">
           <Center>
-            <Header>Add interactivity wherever you need it</Header>
+            <Header>أضف التفاعلية في أي مكان تحتاج إليها</Header>
             <Para>
-              React components receive data and return what should appear on the
+              {/* React components receive data and return what should appear on the
               screen. You can pass them new data in response to an interaction,
               like when the user types into an input. React will then update the
-              screen to match the new data.
+              screen to match the new data. */}
+              تتلقى مكونات React البيانات وتقوم بإرجاع ما يجب أن يظهر على
+              الشاشة. يمكنك تمرير بيانات جديدة إليها استجابةً للتفاعل، مثل عندما
+              يقوم المستخدم بالكتابة في حقل الإدخال. سيقوم React بعد ذلك بتحديث
+              الشاشة لتتوافق مع البيانات الجديدة.
             </Para>
           </Center>
           <FullBleed>
@@ -211,16 +215,19 @@ export function HomeContent() {
           </FullBleed>
           <Center>
             <Para>
-              You don’t have to build your whole page in React. Add React to
+              {/* You don’t have to build your whole page in React. Add React to
               your existing HTML page, and render interactive React components
-              anywhere on it.
+              anywhere on it. */}
+              لا يلزمك بناء صفحتك بأكملها في React . يمكنك إضافة React إلى صفحة
+              HTML الحالية الخاصة بك وتقديم مكونات React التفاعلية في أي مكان
+              عليها.
             </Para>
             <div className="flex justify-start w-full lg:justify-center">
               <CTA
                 color="gray"
                 icon="code"
                 href="/learn/add-react-to-an-existing-project">
-                Add React to your page
+                اضف React الى صفحتك
               </CTA>
             </div>
           </Center>
@@ -229,15 +236,16 @@ export function HomeContent() {
         <Section background="right-card">
           <Center>
             <Header>
-              Go full-stack <br className="hidden lg:inline" />
-              with a framework
+              كن full-stack
+              <br className="hidden lg:inline" />
+              مع إطار عمل
             </Header>
             <Para>
-              React is a library. It lets you put components together, but it
-              doesn’t prescribe how to do routing and data fetching. To build an
-              entire app with React, we recommend a full-stack React framework
-              like <Link href="https://nextjs.org">Next.js</Link> or{' '}
-              <Link href="https://remix.run">Remix</Link>.
+              (React) هو مكتبة يمكنك استخدامها لوضع المكونات معًا ، لكنها لا تصف
+              كيفية إحضار البيانات والتوجيه. لبناء تطبيق كامل باستخدام (React) ،
+              نوصي باستخدام إطار (React) الكامل الخاص مثل{' '}
+              <Link href="https://nextjs.org"> (Next.js) </Link> أو{' '}
+              <Link href="https://remix.run"> (Remix) </Link>.
             </Para>
           </Center>
           <FullBleed>
@@ -245,17 +253,17 @@ export function HomeContent() {
           </FullBleed>
           <Center>
             <Para>
-              React is also an architecture. Frameworks that implement it let
-              you fetch data in asynchronous components that run on the server
-              or even during the build. Read data from a file or a database, and
-              pass it down to your interactive components.
+              ريآكت هي ايضاً هيكلية (architecture) . تسمح الإطارات التي تنفذها
+              بجلب البيانات في مكونات غير متزامنة (asynchronous) تعمل على الخادم
+              أو حتى أثناء البناء. قراءة البيانات من ملف أو قاعدة بيانات ،
+              وتمريرها إلى مكونات التفاعلية الخاصة بك
             </Para>
             <div className="flex justify-start w-full lg:justify-center">
               <CTA
                 color="gray"
                 icon="framework"
                 href="/learn/start-a-new-react-project">
-                Get started with a framework
+                ابدأالآن مع اطار عمل
               </CTA>
             </div>
           </Center>
@@ -263,12 +271,12 @@ export function HomeContent() {
         <Section background="left-card">
           <div className="mx-auto flex flex-col w-full">
             <div className="mx-auto max-w-4xl lg:text-center items-center px-5 flex flex-col">
-              <Header>Use the best from every platform</Header>
+              <Header>استخدم الأفضل من كل منصة. </Header>
               <Para>
-                People love web and native apps for different reasons. React
-                lets you build both web apps and native apps using the same
-                skills. It leans upon each platform’s unique strengths to let
-                your interfaces feel just right on every platform.
+                الناس يحبون تطبيقات الويب والتطبيقات الأصلية لأسباب مختلفة. يتيح
+                لك React بناء تطبيقات الويب والتطبيقات الأصلية باستخدام نفس
+                المهارات. يعتمد على نقاط القوة الفريدة لكل منصة ليجعل واجهاتك
+                تبدو مثالية على كل منصة.
               </Para>
             </div>
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row mt-16 mb-20 lg:mb-28 px-5 gap-20 lg:gap-5">
@@ -285,12 +293,12 @@ export function HomeContent() {
                         Stay true to the web
                       </h4>
                       <p className="lg:text-xl leading-normal text-secondary">
-                        People expect web app pages to load fast. On the server,
-                        React lets you start streaming HTML while you’re still
-                        fetching data, progressively filling in the remaining
-                        content before any JavaScript code loads. On the client,
-                        React can use standard web APIs to keep your UI
-                        responsive even in the middle of rendering.
+                        يتوقع الناس أن تحمل صفحات تطبيقات الويب بسرعة.على
+                        الخادم، يتيح لك React بدء تدفق HTML بينما لا تزال تجلب
+                        البيانات وملء المحتوى المتبقي تدريجيًا قبل تحميل أي كود
+                        JavaScript. على العميل، يمكن لـ React استخدام واجهات
+                        برمجة تطبيقات الويب القياسية للحفاظ على استجابة واجهة
+                        المستخدم الخاصة بك حتى في منتصف عملية التقديم.
                       </p>
                     </div>
                   </div>
@@ -371,18 +379,17 @@ export function HomeContent() {
                           Go truly native
                         </h4>
                         <p className="h-full lg:text-xl text-secondary dark:text-secondary-dark leading-normal">
-                          People expect native apps to look and feel like their
-                          platform.{' '}
+                          يتوقع الناس أن تبدو التطبيقات الأصلية وتشعر وكأنها
+                          تنتمي إلى منصتها.{' '}
                           <Link href="https://reactnative.dev">
                             React Native
                           </Link>{' '}
-                          and{' '}
+                          و{' '}
                           <Link href="https://github.com/expo/expo">Expo</Link>{' '}
-                          let you build apps in React for Android, iOS, and
-                          more. They look and feel native because their UIs{' '}
-                          <i>are</i> truly native. It’s not a web view—your
-                          React components render real Android and iOS views
-                          provided by the platform.
+                          يتيح لك بناء تطبيقات React لكن من Android و iOS و
+                          المزيد تبدو وكأنها أصلية لأن واجهاتها حقًا أصلية. انها
+                          ليست كالويب . تقوم مكونات الـReact الخاصة بك بعمل
+                          رندرة على حسب نوع المنصة من IOS او Android
                         </p>
                       </div>
                     </div>
@@ -392,14 +399,14 @@ export function HomeContent() {
             </div>
             <div className="px-5 lg:px-0 max-w-4xl mx-auto lg:text-center text-secondary dark:text-secondary-dark">
               <Para>
-                With React, you can be a web <i>and</i> a native developer. Your
-                team can ship to many platforms without sacrificing the user
-                experience. Your organization can bridge the platform silos, and
-                form teams that own entire features end-to-end.
+                مع React، يمكنك أن تكون مطورًا ويب <i>و</i> أصلي. يمكن لفريقك
+                شحن التطبيقات إلى العديد من المنصات دون المساس بتجربة المستخدم.
+                يمكن لمنظمتك أن تتخطى الحواجز بين المنصات وتشكل فرقًا تمتلك
+                ميزات كاملة من البداية إلى النهاية.
               </Para>
               <div className="flex justify-start w-full lg:justify-center">
                 <CTA color="gray" icon="native" href="https://reactnative.dev/">
-                  Build for native platforms
+                  ابني للمنصات الاصلية
                 </CTA>
               </div>
             </div>
@@ -410,12 +417,12 @@ export function HomeContent() {
           <div className="max-w-7xl mx-auto flex flex-col lg:flex-row px-5">
             <div className="max-w-3xl lg:max-w-7xl gap-5 flex flex-col lg:flex-row lg:px-5 gap-5">
               <div className="w-full lg:w-6/12 max-w-3xl flex flex-col items-start justify-start lg:pl-5 lg:pr-10">
-                <Header>Upgrade when the future is ready</Header>
+                <Header>كن متطوراَ عندما يصبح المستقبل جاهزاً</Header>
                 <Para>
-                  React approaches changes with care. Every React commit is
-                  tested on business-critical surfaces with over a billion
-                  users. Over 100,000 React components at Meta help validate
-                  every migration strategy.
+                  يتعامل React مع التغييرات بحذر. يتم اختبار كل ارتباط React على
+                  الأسطح الحرجة للأعمال مع أكثر من مليار مستخدم. يساعد أكثر من
+                  100,000 من مكونات React في Meta في التحقق من كل استراتيجية
+                  الترحيل (migration).
                 </Para>
                 <div className="order-last pt-5">
                   <Para>
@@ -523,6 +530,28 @@ function CTA({children, icon, href}) {
       {...extraProps}
       href={href}
       className="outline-none focus:outline-none focus-visible:outline focus-visible:outline-link focus:outline-offset-2 focus-visible:dark:focus:outline-link-dark group cursor-pointer w-auto justify-center inline-flex font-bold items-center mt-10 outline-none hover:bg-gray-40/5 active:bg-gray-40/10 hover:dark:bg-gray-60/5 active:dark:bg-gray-60/10 leading-tight hover:bg-opacity-80 text-lg py-2.5 rounded-full px-4 sm:px-6 ease-in-out shadow-secondary-button-stroke dark:shadow-secondary-button-stroke-dark text-primary dark:text-primary-dark">
+      <svg
+        className="text-primary dark:text-primary-dark"
+        fill="none"
+        width="24"
+        height="24"
+        viewBox="0 0 72 72"
+        aria-hidden="true"
+        transform="scale(-1, 1)">
+        <path
+          className="transition-transform ease-in-out translate-x-[-8px] group-hover:translate-x-[8px]"
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M40.0001 19.0245C41.0912 17.7776 42.9864 17.6513 44.2334 18.7423L58.9758 33.768C59.6268 34.3377 60.0002 35.1607 60.0002 36.0257C60.0002 36.8908 59.6268 37.7138 58.9758 38.2835L44.2335 53.3078C42.9865 54.3988 41.0913 54.2725 40.0002 53.0256C38.9092 51.7786 39.0355 49.8835 40.2824 48.7924L52.4445 36.0257L40.2823 23.2578C39.0354 22.1667 38.9091 20.2714 40.0001 19.0245Z"
+          fill="currentColor"
+        />
+        <path
+          className="opacity-0 ease-in-out transition-opacity group-hover:opacity-100"
+          d="M60 36.0273C60 37.6842 58.6569 39.0273 57 39.0273H15C13.3431 39.0273 12 37.6842 12 36.0273C12 34.3704 13.3431 33.0273 15 33.0273H57C58.6569 33.0273 60 34.3704 60 36.0273Z"
+          fill="currentColor"
+        />
+      </svg>
+      {children}
       {icon === 'native' && (
         <svg
           className="mr-2.5 text-primary dark:text-primary-dark"
@@ -622,27 +651,6 @@ function CTA({children, icon, href}) {
           />
         </svg>
       )}
-      {children}
-      <svg
-        className="text-primary dark:text-primary-dark"
-        fill="none"
-        width="24"
-        height="24"
-        viewBox="0 0 72 72"
-        aria-hidden="true">
-        <path
-          className="transition-transform ease-in-out translate-x-[-8px] group-hover:translate-x-[8px]"
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M40.0001 19.0245C41.0912 17.7776 42.9864 17.6513 44.2334 18.7423L58.9758 33.768C59.6268 34.3377 60.0002 35.1607 60.0002 36.0257C60.0002 36.8908 59.6268 37.7138 58.9758 38.2835L44.2335 53.3078C42.9865 54.3988 41.0913 54.2725 40.0002 53.0256C38.9092 51.7786 39.0355 49.8835 40.2824 48.7924L52.4445 36.0257L40.2823 23.2578C39.0354 22.1667 38.9091 20.2714 40.0001 19.0245Z"
-          fill="currentColor"
-        />
-        <path
-          className="opacity-0 ease-in-out transition-opacity group-hover:opacity-100"
-          d="M60 36.0273C60 37.6842 58.6569 39.0273 57 39.0273H15C13.3431 39.0273 12 37.6842 12 36.0273C12 34.3704 13.3431 33.0273 15 33.0273H57C58.6569 33.0273 60 34.3704 60 36.0273Z"
-          fill="currentColor"
-        />
-      </svg>
     </Tag>
   );
 }

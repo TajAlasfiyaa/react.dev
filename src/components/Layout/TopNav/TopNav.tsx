@@ -261,7 +261,9 @@ export default function TopNav({
                 </NextLink>
               </div>
             </div>
-            <div className="hidden md:flex flex-1 justify-center items-center w-full 3xl:w-auto 3xl:shrink-0 3xl:justify-center">
+            <div
+              className="hidden md:flex flex-1 justify-center items-center w-full 3xl:w-auto 3xl:shrink-0 3xl:justify-center "
+              dir="ltr">
               <button
                 type="button"
                 className={cn(
@@ -269,7 +271,7 @@ export default function TopNav({
                 )}
                 onClick={onOpenSearch}>
                 <IconSearch className="mr-3 align-middle text-gray-30 shrink-0 group-betterhover:hover:text-gray-70" />
-                Search
+                البحث
                 <span className="ml-auto hidden sm:flex item-center mr-1">
                   <Kbd data-platform="mac">⌘</Kbd>
                   <Kbd data-platform="win" wide>
