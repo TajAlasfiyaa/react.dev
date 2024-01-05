@@ -60,7 +60,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [TajAlasfiyaa/react.dev](https://github.com/TajAlasfiyaa/react.dev)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|56<br/>Tools used|12/10/23 <br/>Report generated|
+|58<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -290,9 +290,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (31)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (33)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (31)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (33)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -318,7 +318,9 @@ Full tech stack [here](/techstack.md)
 |[fs-extra](https://www.npmjs.com/fs-extra)|v7.0.1|10/28/21|Rachel Nabors |MIT|N/A|
 |[globby](https://www.npmjs.com/globby)|v11.1.0|10/28/21|Rachel Nabors |MIT|N/A|
 |[gray-matter](https://www.npmjs.com/gray-matter)|v4.0.3|10/04/22|dan |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v7.0.4|03/20/23|Dan Abramov |MIT|N/A|
 |[is-ci](https://www.npmjs.com/is-ci)|v2.0.0|03/20/23|Dan Abramov |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v12.3.1|12/16/22|dan |MIT|N/A|
 |[npm-run-all](https://www.npmjs.com/npm-run-all)|v4.1.5|01/18/22|Strek |MIT|N/A|
 |[postcss-flexbugs-fixes](https://www.npmjs.com/postcss-flexbugs-fixes)|v4.2.1|03/20/23|Dan Abramov |MIT|N/A|
 |[postcss-preset-env](https://www.npmjs.com/postcss-preset-env)|v6.7.0|03/20/23|Dan Abramov |CC0-1.0|N/A|
